@@ -1,0 +1,96 @@
+.Container {
+  display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 100px 40px 0px 40px;
+  background-color: burlywood;
+  border-radius: 20px;
+  margin: 150px 50px 50px 50px;
+  width: 500px;
+  height: 350px;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 10px 10px 10px;
+  margin: 20px;
+}
+
+.input {
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  border: thin;
+  font-size: 30px;
+}
+
+.boton {
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 5px;
+  border: thin;
+  cursor: pointer;
+  background-color: darkgoldenrod;
+  transition: transform 0.25s ease-in-out;
+}
+
+.boton:hover {
+  background-color: blanchedalmond;
+  transform: scale(1.125);
+}
+
+.resultado {
+  font-size: 30px;
+  border-radius: 5px;
+  border-color: black;
+}
+
+.titulo {
+  font-size: 2em;
+}
+
+@media (max-width: 768px) {
+  .App {
+    display: flex;
+    width: 200px;
+    height: 500px;
+    margin: 30px 50px 50px 50px;
+  }
+
+  .botones {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px 10px 10px;
+    margin: 20px;
+  }
+
+  .boton {
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: thin;
+    background-color: darkgoldenrod;
+    width: 90px;
+    margin: 10px;
+  }
+
+  .input {
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    border: thin;
+    font-size: 20px;
+  }
+
+  .titulo {
+    font-size: 2.5em;
+  }
+}
